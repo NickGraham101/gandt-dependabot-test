@@ -2,3 +2,6 @@ version: 2
 updates:
 - directory: "/"
   package-ecosystem: "nuget"
+  schedule:
+    interval: "daily"
+    time: "17:15"
